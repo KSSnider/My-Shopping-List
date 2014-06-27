@@ -1,14 +1,17 @@
 .icon{
 	max-width: 100px;
-	margin: 50px 0px 0px 670px;
+	margin: auto;
+	width:100px;
+	display:block;
 }
 
 #title{
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Anton', helvetica;
 	margin-top: 10px;
 	color: #777373;
 	text-align: center;
 }
+
 .redtext{
 	color:#CC5252;
 }
@@ -20,14 +23,16 @@
 }
 #reset{
 	font-family: helvetica, arial, sans-serif;
-	margin:30px 0px 0px 640px;
+	margin:auto;
+	margin-top: 10px;
+	display: block;
 	border-radius: 40px;
 	background-color: #FF7171;
 	border-style: none;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 18px;
 	color: white;
-	height:50px;
+	height:40px;
 	width:150px;
 }
 #reset:hover{
@@ -36,6 +41,7 @@
 .top{
 	background-color: #FFE6E6;
 	padding-bottom: 30px;
+	width:100%;
 }
 #break{
 	background-color: #999999;
@@ -46,126 +52,106 @@
 }
 .content{
 	background-color:#FFC6C6;
+	padding-bottom: 400px;
+	padding-top: 5px;
+}
+
+#add{
+	background-color: #FF7171;
+	border: none;
+	border-radius: 15px;
+	color: white;
+    display: block;
+    font-size: 12pt;
+    height: 40px;
+    line-height: 24pt;
+    margin: 15px auto;
+    padding: 0 15px;
+    text-align: center;
+    width: 500px;
+}
+p{
+    background-color: #FF7171;
+    border-radius: 15px;
+    color: white;
+    display: table;
+    font-size: 12pt;
+    height: 40px;
+    width:500px;
+    text-align: center;
+    line-height: 24pt;
+    margin: 15px auto;
+    padding: 0 15px;
+    clear: all;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
 }
 #first{
+clear: all;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 18px;
 	color: #777373;
 	border-style: dashed;
 	border-radius: 10px;
-	padding: 5px 0px 5px 0px;
 	width: 300px;
-	margin-left: 560px;
+	height:30px;
+	margin:auto;
+	margin-top: 10px;
+	background-color:#FFC6C6; 
 }
 #second{
+	clear: all;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 18px;
 	color: #777373;
 	border-style: dashed;
 	border-radius: 10px;
-	padding: 5px 0px 5px 0px;
 	width: 300px;
-	margin-left: 560px;
+	height:20px;
+	margin:auto;
+	margin-top: 10px;
+	background-color:#FFC6C6; 
 }
-#add{
-	font-family: helvetica, arial, sans-serif;
-	margin:10px 0px 20px 440px;
-	border-radius: 40px;
-	background-color: #FF7171;
-	border-style: none;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 18px;
-	color: white;
-	height:50px;
-	width:550px;
-	text-align: center;
+#list-area{
+	font-family:helvetica, sans-serif;
+	font-size: 14px;
 }
-#item1{
-	font-family: helvetica, arial, sans-serif;
-	margin:0px 0px 0px 440px;
-	border-radius: 40px;
-	background-color: #FF7171;
-	border-style: none;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 18px;
-	color: #FFC6C6;
-	height:30px;
-	width:550px;
-	text-align: center;
-	padding-top: 5px;
-	background-image: url("../images/check-mark.png");
-	background-repeat: no-repeat;
-	background-position: 500px;
+.check{
+	cursor: pointer;
+	margin-top: 5px;
+	float: right;
+	height: 22px;
+	width: 22px;
+	background: url('/images/check-mark.png');
+}
+.alt-check{
+background: url('/images/alt-check-mark.png');
+}
+.x-mark{
+	cursor: pointer;
+	margin-top: 5px;
+	float: left;
+	height: 22px;
+	width: 22px;
+	background: url('/images/x-mark.png');
+}
+.alt-x-mark{
+	background-image: url('/images/alt-x-mark.png');
+}
 
-}
-#item2{
-font-family: helvetica, arial, sans-serif;
-	margin:10px 0px 0px 440px;
-	border-radius: 40px;
-	background-color: #FF7171;
-	border-style: none;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 18px;
-	color: #FFC6C6;
-	height:30px;
-	width:550px;
-	text-align: center;
-	padding-top: 5px;
-	background-image: url("../images/check-mark.png");
-	background-repeat: no-repeat;
-	background-position: 500px;
-
-}
-#item3{
-	font-family: helvetica, arial, sans-serif;
-	margin:10px 0px 0px 440px;
-	border-radius: 40px;
-	background-color: #FF7171;
-	border-style: none;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 18px;
-	color: #FFC6C6;
-	height:30px;
-	width:550px;
-	text-align: center;
-	padding-top: 5px;
-	background-image: url("../images/check-mark.png");
-	background-repeat: no-repeat;
-	background-position: 500px;
-}
-#item4{
-	font-family: helvetica, arial, sans-serif;
-	margin:10px 0px 0px 440px;
-	border-radius: 40px;
-	background-color: #CC5252;
-	border-style: none;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 18px;
-	color: #FFC6C6;
-	height:30px;
-	width:550px;
-	text-align: center;
-	padding-top: 5px;
-	background-image: url("../images/alt-check-mark.png");
-	background-repeat: no-repeat;
-	background-position: 500px;
-}
-#item5{
-	font-family: helvetica, arial, sans-serif;
-	margin:10px 0px 0px 440px;
-	border-radius: 40px;
-	background-color: #CC5252;
-	border-style: none;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 18px;
-	color: #FFC6C6;
-	height:30px;
-	width:550px;
-	text-align: center;
-	padding-top: 5px;
-	background-image: url("../images/alt-check-mark.png");
-	background-repeat: no-repeat;
-	background-position: 500px;
+.strikethrough{
+	background-color: #36d9bc;
+	text-decoration: line-through !important;
 }
