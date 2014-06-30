@@ -38,9 +38,7 @@ $(document).ready(function() {
         .animate(
             {marginTop: "0px"},
             { queue: false, duration: 'slow' }
-
         );
-      
     }
  $('.check').append();
        $('.alt-check').append();
@@ -48,7 +46,7 @@ $(document).ready(function() {
        $('alt-x-mark').append();
 });
 /*Clears all items on list*/
-$(document).on("click", "#reset", function(){
+$(document).on("click", ".reset", function(){
     $("#list-area").empty();
     submissions = 0;
 });

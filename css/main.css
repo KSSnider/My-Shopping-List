@@ -25,7 +25,7 @@
 	color: #777373;
 	text-align: center;
 }
-#reset{
+.reset{
 	font-family: helvetica, arial, sans-serif;
 	margin:auto;
 	margin-top: 10px;
@@ -39,7 +39,7 @@
 	height:40px;
 	width:150px;
 }
-#reset:hover{
+.reset:hover{
 	background-color: #CC5252;
 }
 .top{
@@ -87,7 +87,6 @@ p{
     line-height: 24pt;
     margin: 15px auto;
     padding: 0 15px;
-    clear: all;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    white;
@@ -102,7 +101,6 @@ p{
     color: white;
 }
 #first{
-clear: all;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 18px;
@@ -116,7 +114,6 @@ clear: all;
 	background-color:transparent; 
 }
 #second{
-	clear: all;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 18px;
