@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Shopping List</title>
+	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/app.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,100' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="main">
@@ -27,17 +32,7 @@
 		</div>
 		
 		<input id="add" placeholder="+ Add items" type="text" name="add">
-		<div class="items">
-			<div class="checked">
-				<p id="item1">Bacon</p>
-				<p id="item2"> Cheese</p>
-				<p id="item3">Milk</p>
-			</div>
-			<div class="unchecked">
-				<p id="item4">Bread</p>
-				<p id="item5"> Strawberries</p>
-			</div>
-		</div>
+		<div id="list-area"></div>
 		<button id="reset">
 			Reset List
 		</button>
