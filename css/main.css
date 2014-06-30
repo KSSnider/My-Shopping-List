@@ -6,17 +6,21 @@
 }
 
 #title{
-	font-family: 'Anton', helvetica;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 	margin-top: 10px;
 	color: #777373;
 	text-align: center;
 }
 
 .redtext{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 	color:#CC5252;
 }
 #author{
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;	
 	margin-top: 10px;
 	color: #777373;
 	text-align: center;
@@ -134,10 +138,14 @@ clear: all;
 	float: right;
 	height: 22px;
 	width: 22px;
-	background: url('/images/check-mark.png');
+	border-style: none;
+	background: url('../images/check-mark.png');
+	background-repeat: no-repeat;
 }
 .alt-check{
-background: url('/images/alt-check-mark.png');
+border-style: none;
+background: url('../images/alt-check-mark.png');
+background-repeat: no-repeat;
 }
 .x-mark{
 	cursor: pointer;
@@ -145,13 +153,18 @@ background: url('/images/alt-check-mark.png');
 	float: left;
 	height: 22px;
 	width: 22px;
-	background: url('/images/x-mark.png');
+	border-style: none;
+	background: url('../images/x-mark.png');
+	background-repeat: no-repeat;
 }
 .alt-x-mark{
-	background-image: url('/images/alt-x-mark.png');
+	
+	background-image: url('../images/alt-x-mark.png');
+	background-repeat: no-repeat;
 }
 
 .strikethrough{
-	background-color: #36d9bc;
+	background-color: #FFE6E6;
+	color: #777373;
 	text-decoration: line-through !important;
 }

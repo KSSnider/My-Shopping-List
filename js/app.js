@@ -1,9 +1,8 @@
-
 $(document).ready(function() {
 	console.log('Welcome to console');
     var submissions = 0;
-    var checkMark = '<span class="cross-off"></span>'
-    var xMark = '<span class="delete"></span>'
+    var checkMark = '<input class="check"></input>';
+	var xMark = '<button class="x-mark"></button>';
 	$('.icon').hide();
 	$('.icon').fadeIn(1000);
 	$('#title').hide();
@@ -39,9 +38,14 @@ $(document).ready(function() {
         .animate(
             {marginTop: "0px"},
             { queue: false, duration: 'slow' }
-        );
-    }
 
+        );
+      
+    }
+ $('.check').append();
+       $('.alt-check').append();
+       $('x-mark').append();
+       $('alt-x-mark').append();
 });
 /*Clears all items on list*/
 $(document).on("click", "#reset", function(){
