@@ -73,6 +73,7 @@
     padding: 0 15px;
     text-align: center;
     width: 500px;
+    outline: none;
 }
 p{
     background-color: #FF7171;
@@ -112,7 +113,7 @@ clear: all;
 	height:30px;
 	margin:auto;
 	margin-top: 10px;
-	background-color:#FFC6C6; 
+	background-color:transparent; 
 }
 #second{
 	clear: all;
@@ -126,7 +127,7 @@ clear: all;
 	height:20px;
 	margin:auto;
 	margin-top: 10px;
-	background-color:#FFC6C6; 
+	background-color:transparent; 
 }
 #list-area{
 	font-family:helvetica, sans-serif;
@@ -141,6 +142,7 @@ clear: all;
 	border-style: none;
 	background: url('../images/check-mark.png');
 	background-repeat: no-repeat;
+	outline: none;
 }
 .alt-check{
 border-style: none;
@@ -156,11 +158,13 @@ background-repeat: no-repeat;
 	border-style: none;
 	background: url('../images/x-mark.png');
 	background-repeat: no-repeat;
+	outline: none;
 }
 .alt-x-mark{
 	
 	background-image: url('../images/alt-x-mark.png');
 	background-repeat: no-repeat;
+	outline: none;
 }
 
 .strikethrough{
